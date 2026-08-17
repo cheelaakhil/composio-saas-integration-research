@@ -91,7 +91,7 @@ A balanced 20-app sample across 4 difficulty tiers evaluated across 8 discrete c
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/akhil-cheela/composio-saas-integration-research
+git clone https://github.com/cheelaakhil/composio-saas-integration-research
 cd composio-saas-integration-research
 
 # 2. Run the complete pipeline
