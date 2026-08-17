@@ -1,0 +1,308 @@
+[
+  {
+    "appName": "Salesforce",
+    "category": "CRM and Sales",
+    "auditStatus": "MEDIUM",
+    "requiresReresearch": true,
+    "flagCount": 1,
+    "flags": [
+      {
+        "type": "MEDIUM",
+        "severity": "MODERATE",
+        "issue": "MCP server for Salesforce is community-built, not officially authored by the vendor.",
+        "field": "mcp.type"
+      }
+    ]
+  },
+  {
+    "appName": "HubSpot",
+    "category": "CRM and Sales",
+    "auditStatus": "MEDIUM",
+    "requiresReresearch": true,
+    "flagCount": 1,
+    "flags": [
+      {
+        "type": "MEDIUM",
+        "severity": "MODERATE",
+        "issue": "MCP server for HubSpot is community-built, not officially authored by the vendor.",
+        "field": "mcp.type"
+      }
+    ]
+  },
+  {
+    "appName": "Twenty",
+    "category": "CRM and Sales",
+    "auditStatus": "MEDIUM",
+    "requiresReresearch": true,
+    "flagCount": 1,
+    "flags": [
+      {
+        "type": "MEDIUM",
+        "severity": "MODERATE",
+        "issue": "MCP server for Twenty is community-built, not officially authored by the vendor.",
+        "field": "mcp.type"
+      }
+    ]
+  },
+  {
+    "appName": "DealCloud",
+    "category": "CRM and Sales",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Hootsuite",
+    "category": "Marketing, Ads, Email and Social",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Amazon SP-API",
+    "category": "Ecommerce",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Airtable",
+    "category": "Productivity and Project Management",
+    "auditStatus": "MEDIUM",
+    "requiresReresearch": true,
+    "flagCount": 1,
+    "flags": [
+      {
+        "type": "MEDIUM",
+        "severity": "MODERATE",
+        "issue": "MCP server for Airtable is community-built, not officially authored by the vendor.",
+        "field": "mcp.type"
+      }
+    ]
+  },
+  {
+    "appName": "Stripe",
+    "category": "Finance and Fintech",
+    "auditStatus": "MEDIUM",
+    "requiresReresearch": true,
+    "flagCount": 1,
+    "flags": [
+      {
+        "type": "MEDIUM",
+        "severity": "MODERATE",
+        "issue": "MCP server for Stripe is community-built, not officially authored by the vendor.",
+        "field": "mcp.type"
+      }
+    ]
+  },
+  {
+    "appName": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "iPayX",
+    "category": "Finance and Fintech",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "PitchBook",
+    "category": "Finance and Fintech",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Platform has no public developer REST/GraphQL APIs; buildability must reflect \"Not Practical\".",
+        "field": "buildability.verdict"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  },
+  {
+    "appName": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "auditStatus": "CONTRADICTION",
+    "requiresReresearch": true,
+    "flagCount": 2,
+    "flags": [
+      {
+        "type": "CONTRADICTION",
+        "severity": "CRITICAL",
+        "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+        "field": "authentication.self_serve"
+      },
+      {
+        "type": "LOW",
+        "severity": "HIGH",
+        "issue": "Marked with LOW confidence by initial collector.",
+        "field": "evidence.confidence"
+      }
+    ]
+  }
+]

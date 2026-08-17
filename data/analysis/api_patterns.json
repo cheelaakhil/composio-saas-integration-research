@@ -1,0 +1,64 @@
+{
+  "types": [
+    {
+      "name": "REST",
+      "count": 84,
+      "percentage": 84
+    },
+    {
+      "name": "Both",
+      "count": 9,
+      "percentage": 9
+    },
+    {
+      "name": "GraphQL",
+      "count": 4,
+      "percentage": 4
+    },
+    {
+      "name": "SOAP",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "None",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "CLI/Node",
+      "count": 1,
+      "percentage": 1
+    }
+  ],
+  "breadth": [
+    {
+      "name": "Comprehensive",
+      "count": 89,
+      "percentage": 89
+    },
+    {
+      "name": "Moderate",
+      "count": 8,
+      "percentage": 8
+    },
+    {
+      "name": "Limited",
+      "count": 2,
+      "percentage": 2
+    },
+    {
+      "name": "None",
+      "count": 1,
+      "percentage": 1
+    }
+  ],
+  "write_operations_support": {
+    "count": 94,
+    "pct": 94
+  },
+  "webhooks_support": {
+    "count": 91,
+    "pct": 91
+  }
+}

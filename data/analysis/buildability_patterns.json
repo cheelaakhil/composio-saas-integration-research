@@ -1,0 +1,32 @@
+{
+  "distribution": [
+    {
+      "name": "Easy Win",
+      "count": 80,
+      "percentage": 80
+    },
+    {
+      "name": "Gated / Outreach",
+      "count": 10,
+      "percentage": 10
+    },
+    {
+      "name": "Buildable",
+      "count": 9,
+      "percentage": 9
+    },
+    {
+      "name": "Not Practical",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "Needs Investigation",
+      "count": 0,
+      "percentage": 0
+    }
+  ],
+  "easy_win_pct": 80,
+  "buildable_pct": 9,
+  "gated_pct": 10
+}

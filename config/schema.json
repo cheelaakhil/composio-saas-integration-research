@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SaaS App Integration Research Record",
+  "type": "object",
+  "required": ["app", "authentication", "api", "mcp", "buildability", "evidence"],
+  "properties": {
+    "app": {
+      "type": "object",
+      "required": ["name", "category", "description"],
+      "properties": {
+        "name": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": [
+            "CRM and Sales",
+            "Support and Helpdesk",
+            "Communications and Messaging",
+            "Marketing, Ads, Email and Social",
+            "Ecommerce",
+            "Data, SEO and Scraping",
+            "Developer, Infra and Data platforms",
+            "Productivity and Project Management",
+            "Finance and Fintech",
+            "AI, Research and Media-native"
+          ]
+        },
+        "description": { "type": "string", "maxLength": 300 }
+      }
+    },
+    "authentication": {
+      "type": "object",
+      "required": ["methods", "credential_setup", "self_serve", "gated"],
+      "properties": {
+        "methods": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["OAuth2", "API Key", "Bearer/PAT", "Basic", "Session", "SAML", "Custom", "CLI/Local", "None"]
+          },
+          "minItems": 1
+        },
+        "credential_setup": {
+          "type": "string",
+          "enum": [
+            "Self-serve signup",
+            "Free tier available",
+            "Trial required",
+            "Paid plan required",
+            "Admin approval",
+            "Partner program",
+            "Contact sales",
+            "Open Source / Local",
+            "Unknown"
+          ]
+        },
+        "self_serve": { "type": "boolean" },
+        "gated": { "type": "boolean" },
+        "gating_reason": { "type": ["string", "null"] }
+      }
+    },
+    "api": {
+      "type": "object",
+      "required": ["type", "breadth", "write_operations", "webhooks"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["REST", "GraphQL", "Both", "SOAP", "gRPC", "WebSocket", "CLI/Node", "Other", "None"]
+        },
+        "breadth": {
+          "type": "string",
+          "enum": ["Comprehensive", "Moderate", "Limited", "Minimal", "None"]
+        },
+        "write_operations": { "type": "boolean" },
+        "webhooks": { "type": "boolean" }
+      }
+    },
+    "mcp": {
+      "type": "object",
+      "required": ["available", "type", "agent_callable"],
+      "properties": {
+        "available": { "type": "boolean" },
+        "type": {
+          "type": "string",
+          "enum": ["First-party", "Third-party", "Community", "None"]
+        },
+        "agent_callable": { "type": "boolean" },
+        "source_url": { "type": ["string", "null"] }
+      }
+    },
+    "buildability": {
+      "type": "object",
+      "required": ["verdict", "primary_blocker", "effort_estimate"],
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "enum": ["Easy Win", "Buildable", "Needs Investigation", "Gated / Outreach", "Not Practical"]
+        },
+        "primary_blocker": { "type": ["string", "null"] },
+        "effort_estimate": {
+          "type": "string",
+          "enum": ["Low", "Medium", "High", "Very High"]
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["urls", "snippets", "confidence", "verification_status", "last_checked"],
+      "properties": {
+        "urls": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" },
+          "minItems": 1
+        },
+        "snippets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["claim", "source", "quote"],
+            "properties": {
+              "claim": { "type": "string" },
+              "source": { "type": "string" },
+              "quote": { "type": "string" }
+            }
+          }
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["HIGH", "MEDIUM", "LOW"]
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": ["Verified", "Unverified", "Contradicted", "Partial"]
+        },
+        "last_checked": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

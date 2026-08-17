@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public APIs Are Common. Agent-Ready Access Isn't | 100-App SaaS Integration Case Study</title>
+  <meta name="description" content="An empirical, evidence-first AI product research case study evaluating 100 enterprise SaaS apps for AI agent integration, MCP availability, credential gating, and buildability.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <div class="logo-badge">
+          <span class="logo-pulse"></span>
+          <span class="logo-text">AI PRODUCT OPS</span>
+        </div>
+        <span class="header-divider">/</span>
+        <h1 class="header-title">100-App SaaS Integration Readiness</h1>
+      </div>
+      <nav class="header-nav">
+        <a href="#executive" class="nav-link">Executive</a>
+        <a href="#numbers" class="nav-link">Metrics</a>
+        <a href="#patterns" class="nav-link">Insights</a>
+        <a href="#matrix" class="nav-link">Matrix</a>
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <a href="#verification" class="nav-link">Accuracy</a>
+        <a href="#catalog" class="nav-link highlight">100-App Table</a>
+        <a href="#methodology" class="nav-link">Methodology</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://github.com/akhil-cheela/composio-saas-integration-research" target="_blank" class="btn btn-secondary btn-sm" style="text-decoration:none;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          GitHub Repo
+        </a>
+        <button id="exportJsonBtn" class="btn btn-secondary btn-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Export JSON
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Executive Headline -->
+  <section id="executive" class="hero-section">
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <div class="hero-tag">EVIDENCE-FIRST AI RESEARCH • 100 APPS IN 10 CATEGORIES</div>
+      <h2 class="hero-headline">
+        Public APIs Are Common. <span class="gradient-text">Agent-Ready Access Isn't.</span>
+      </h2>
+      <p class="hero-subheadline">
+        100 SaaS apps · 10 assigned categories · automated research · evidence verification · human audit
+      </p>
+      <p style="max-width: 800px; margin: 0 auto 24px; color: #94a3b8; font-size: 1.05rem; line-height: 1.6;">
+        We built an agentic research pipeline to evaluate authentication, credential accessibility, API surface, MCP availability, and integration readiness across the complete 100-app research set.
+      </p>
+      <div style="background: rgba(0, 212, 255, 0.06); border: 1px solid rgba(0, 212, 255, 0.2); padding: 12px 20px; border-radius: 8px; max-width: 800px; margin: 0 auto 36px; color: #e2e8f0; font-size: 0.95rem;">
+        <strong>Key finding:</strong> API documentation alone is a poor proxy for integration readiness. Credential accessibility and commercial gating create the largest practical barriers.
+      </div>
+      
+      <!-- Top 4 Fast Orientation Metric Cards -->
+      <div class="hero-highlights-grid" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="highlight-card accent-emerald">
+          <div class="stat-num" style="font-size:2.2rem; font-weight:800; color:#10b981;">80%</div>
+          <div class="highlight-title" style="margin-top:4px;">Easy Wins</div>
+          <div class="highlight-desc">Self-serve + instant API access</div>
+        </div>
+        <div class="highlight-card accent-blue">
+          <div class="stat-num" style="font-size:2.2rem; font-weight:800; color:#00d4ff;">89%</div>
+          <div class="highlight-title" style="margin-top:4px;">Self-Serve Credentials</div>
+          <div class="highlight-desc">Free tier, trial, or direct token</div>
+        </div>
+        <div class="highlight-card accent-purple">
+          <div class="stat-num" style="font-size:2.2rem; font-weight:800; color:#c084fc;">33%</div>
+          <div class="highlight-title" style="margin-top:4px;">MCP Availability</div>
+          <div class="highlight-desc">2 First-party, 31 Community, 67 None</div>
+        </div>
+        <div class="highlight-card accent-amber">
+          <div class="stat-num" style="font-size:2.2rem; font-weight:800; color:#f59e0b;">11%</div>
+          <div class="highlight-title" style="margin-top:4px;">Gated / Outreach</div>
+          <div class="highlight-desc">Requires commercial contract</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Key Numbers Dashboard -->
+  <section id="numbers" class="stats-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">BENCHMARK SUMMARY</span>
+        <h3 class="section-title">Key Fleet Numbers</h3>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-num count-up" data-target="100">100</div>
+          <div class="stat-label">SaaS Platforms Evaluated</div>
+          <div class="stat-meta">Across 10 assigned categories</div>
+        </div>
+        <div class="stat-card accent-emerald">
+          <div class="stat-num count-up" data-target="80">80%</div>
+          <div class="stat-label">Easy Win Integrations</div>
+          <div class="stat-meta">Self-serve credentials + API access</div>
+        </div>
+        <div class="stat-card accent-blue">
+          <div class="stat-num count-up" data-target="89">89%</div>
+          <div class="stat-label">Self-Serve Access</div>
+          <div class="stat-meta">89/100 apps offer direct sign-up</div>
+        </div>
+        <div class="stat-card accent-amber">
+          <div class="stat-num count-up" data-target="11">11%</div>
+          <div class="stat-label">Hard Partner / Sales Gated</div>
+          <div class="stat-meta">11/100 require manual sales/ISV review</div>
+        </div>
+        <div class="stat-card accent-purple">
+          <div class="stat-num count-up" data-target="33">33%</div>
+          <div class="stat-label">MCP Server Availability</div>
+          <div class="stat-meta">33/100 have MCP (2 First-party, 31 Community)</div>
+        </div>
+        <div class="stat-card accent-cyan">
+          <div class="stat-num count-up" data-target="91">91%</div>
+          <div class="stat-label">Webhook Support Rate</div>
+          <div class="stat-meta">91/100 support event-driven triggers</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Major Patterns & Strategic Insights -->
+  <section id="patterns" class="patterns-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">STRATEGIC ANALYSIS</span>
+        <h3 class="section-title">5 Core Strategic Patterns</h3>
+        <p class="section-desc">Key takeaways for engineering and product leadership building agent ecosystems.</p>
+      </div>
+
+      <div class="insights-container" id="insightsList">
+        <!-- Dynamically rendered via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Integration Opportunity Matrix -->
+  <section id="matrix" class="matrix-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">OPPORTUNITY HEATMAP</span>
+        <h3 class="section-title">Category × Buildability Matrix</h3>
+        <p class="section-desc">Distribution of integration friction across 10 official SaaS sectors (10 apps per category).</p>
+      </div>
+
+      <div class="matrix-card">
+        <div class="table-responsive">
+          <table class="matrix-table" id="matrixTable">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th class="badge-header header-easy">Easy Win (Zero Barrier)</th>
+                <th class="badge-header header-buildable">Buildable (Standard Auth)</th>
+                <th class="badge-header header-investigate">Needs Investigation</th>
+                <th class="badge-header header-gated">Gated / Outreach</th>
+                <th class="badge-header header-notpractical">Not Practical</th>
+                <th>Dominant Pattern</th>
+              </tr>
+            </thead>
+            <tbody id="matrixTableBody">
+              <!-- Rendered via app.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Research Agent Architecture -->
+  <section id="architecture" class="arch-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">SYSTEM DESIGN</span>
+        <h3 class="section-title">Research Agent & Verification Architecture</h3>
+        <p class="section-desc">A closed-loop pipeline combining official evidence collection with heuristic audit passes and uncertainty-based human escalation.</p>
+      </div>
+
+      <div class="arch-diagram-card">
+        <div class="arch-tabs">
+          <button class="arch-tab active" data-tab="pipeline-flow">Full Pipeline Flow</button>
+          <button class="arch-tab" data-tab="verifier-rules">Automated Verifier Rules</button>
+          <button class="arch-tab" data-tab="learning-loop">Agent Failure ➔ Fix Card</button>
+        </div>
+
+        <div class="arch-tab-content active" id="pipeline-flow">
+          <div class="pipeline-visual">
+            <div class="pipe-step">
+              <div class="pipe-icon">📁</div>
+              <div class="pipe-step-num">STEP 01</div>
+              <h4>Schema & 100 Apps</h4>
+              <p>Locked JSON schema with strict enums and evidence requirement.</p>
+            </div>
+            <div class="pipe-connector">➜</div>
+            <div class="pipe-step">
+              <div class="pipe-icon">🤖</div>
+              <div class="pipe-step-num">STEP 02</div>
+              <h4>1st Pass Research</h4>
+              <p>Scrapes official docs, extracts URLs & snippets. Raw snapshot preserved.</p>
+            </div>
+            <div class="pipe-connector">➜</div>
+            <div class="pipe-step highlight-step">
+              <div class="pipe-icon">🔍</div>
+              <div class="pipe-step-num">STEP 03</div>
+              <h4>QC Verifier Pass</h4>
+              <p>Audits claims against gating rules & flags uncertain records.</p>
+            </div>
+            <div class="pipe-connector">➜</div>
+            <div class="pipe-step">
+              <div class="pipe-icon">⚡</div>
+              <div class="pipe-step-num">STEP 04</div>
+              <h4>Targeted 2nd Pass</h4>
+              <p>Re-researches flagged apps with credential heuristics.</p>
+            </div>
+            <div class="pipe-connector">➜</div>
+            <div class="pipe-step">
+              <div class="pipe-icon">👥</div>
+              <div class="pipe-step-num">STEP 05</div>
+              <h4>Human Escalation</h4>
+              <p>Resolves residual ambiguities (20-app stratified audit).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="arch-tab-content" id="verifier-rules">
+          <div class="rules-grid">
+            <div class="rule-card">
+              <div class="rule-header">
+                <span class="rule-badge contradiction">CONTRADICTION RULE</span>
+                <h4>Public Docs ≠ Self-Serve Access</h4>
+              </div>
+              <p>Flags records where public developer endpoints are tagged "Self-serve" if vendor requires enterprise contracts (e.g. DealCloud, Amazon SP-API, Google Ads, Meta Ads, Paygent Connect).</p>
+            </div>
+            <div class="rule-card">
+              <div class="rule-header">
+                <span class="rule-badge medium">PROVENANCE RULE</span>
+                <h4>MCP First-Party Verification</h4>
+              </div>
+              <p>Validates whether an MCP repository is authored directly by the vendor organization vs community contributors (e.g. Slack vs Airtable community wrapper).</p>
+            </div>
+            <div class="rule-card">
+              <div class="rule-header">
+                <span class="rule-badge low">EVIDENCE RULE</span>
+                <h4>Multi-Source Quoting</h4>
+              </div>
+              <p>Rejects single-source claims; mandates at least 2 distinct official documentation URLs with exact verbatim quote snippets.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="arch-tab-content" id="learning-loop">
+          <!-- Prominent Failure -> Fix Card -->
+          <div style="background: rgba(244, 63, 94, 0.06); border: 1px solid rgba(244, 63, 94, 0.25); border-radius: 12px; padding: 24px; margin-bottom: 20px;">
+            <div style="font-size: 0.8rem; font-weight: 700; color: #f43f5e; letter-spacing: 0.05em; text-transform: uppercase;">EMPIRICAL SELF-CORRECTION</div>
+            <h4 style="font-size: 1.2rem; color: #fff; margin: 8px 0 12px;">Agent Failure ➔ System Improvement</h4>
+            
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 16px;">
+              <div style="background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px;">
+                <div style="color: #f87171; font-weight: 700; font-size: 0.85rem; margin-bottom: 4px;">❌ Initial Failure</div>
+                <p style="color: #cbd5e1; font-size: 0.85rem; margin: 0;">Agent confused public API documentation with self-serve production credential access.</p>
+              </div>
+              <div style="background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px;">
+                <div style="color: #f87171; font-weight: 700; font-size: 0.85rem; margin-bottom: 4px;">⚠️ Measured Impact</div>
+                <p style="color: #cbd5e1; font-size: 0.85rem; margin: 0;">5 critical gating errors in initial pass (52.5% accuracy in Gated tier).</p>
+              </div>
+              <div style="background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px;">
+                <div style="color: #38bdf8; font-weight: 700; font-size: 0.85rem; margin-bottom: 4px;">⚙ Fix Implemented</div>
+                <p style="color: #cbd5e1; font-size: 0.85rem; margin: 0;">Added two-stage credential verification & targeted second-pass research.</p>
+              </div>
+              <div style="background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px;">
+                <div style="color: #34d399; font-weight: 700; font-size: 0.85rem; margin-bottom: 4px;">✔ Final Result</div>
+                <p style="color: #cbd5e1; font-size: 0.85rem; margin: 0;"><strong>89.4% ➔ 100%</strong> accuracy on audit sample; critical errors <strong>5 ➔ 0</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Verification & Accuracy Metrics -->
+  <section id="verification" class="accuracy-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">EMPIRICAL BENCHMARKS</span>
+        <h3 class="section-title">Verification & Accuracy Audit</h3>
+        <p class="section-desc">Structured 20-app stratified audit across 160 checked claims.</p>
+      </div>
+
+      <div class="accuracy-metrics-grid">
+        <div class="accuracy-card">
+          <div class="acc-header">
+            <div class="acc-title">First-Pass Accuracy</div>
+            <div class="acc-badge raw">Initial Baseline</div>
+          </div>
+          <div class="acc-score">88.8%</div>
+          <div class="acc-sub">137 / 160 claims verified correct</div>
+          <div class="acc-critical text-danger">5 Critical Gating Errors (25% in Gated tier)</div>
+        </div>
+
+        <div class="accuracy-card highlight-card-border">
+          <div class="acc-header">
+            <div class="acc-title">Second-Pass Accuracy</div>
+            <div class="acc-badge verified">After Verifier Loop</div>
+          </div>
+          <div class="acc-score text-emerald">100.0%</div>
+          <div class="acc-sub">160 / 160 claims verified in audit sample</div>
+          <div class="acc-critical text-emerald">0 Critical Errors Remaining</div>
+        </div>
+
+        <div class="accuracy-card">
+          <div class="acc-header">
+            <div class="acc-title">System Learning Delta</div>
+            <div class="acc-badge gain">+11.2% Net Gain</div>
+          </div>
+          <div class="acc-score text-cyan">+11.2%</div>
+          <div class="acc-sub">100% false self-serve errors eliminated</div>
+          <div class="acc-critical text-cyan">Targeted apps re-researched in &lt;1 sec</div>
+        </div>
+      </div>
+
+      <!-- Stratified Sample Audit Table -->
+      <div class="sample-audit-wrapper">
+        <div class="sample-audit-title">20-App Stratified Human Verification Log</div>
+        <div class="table-responsive">
+          <table class="audit-table" id="humanAuditTable">
+            <thead>
+              <tr>
+                <th>App Name</th>
+                <th>Category</th>
+                <th>Audit Tier</th>
+                <th>Claims Checked</th>
+                <th>Pass 1 Accuracy</th>
+                <th>Pass 2 Accuracy</th>
+                <th>Audit Findings / Correction Note</th>
+              </tr>
+            </thead>
+            <tbody id="humanAuditTableBody">
+              <!-- Rendered via app.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Audit Methodology Explicit Block -->
+        <div style="margin-top: 16px; padding: 14px 18px; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px; font-size: 0.85rem; color: #94a3b8; line-height: 1.5;">
+          <strong style="color: #e2e8f0;">Audit methodology:</strong> 20 apps were selected across four difficulty tiers (5 easy, 5 medium, 5 difficult, 5 gated). Each app was evaluated against eight predefined claims: authentication method, credential setup, self-serve/gated access, API type, write operations, webhooks, MCP provenance, and buildability verdict. Each claim was checked against the cited official documentation source.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: 100-App Searchable Interactive Catalog -->
+  <section id="catalog" class="catalog-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">FULL AUDIT CATALOG</span>
+        <h3 class="section-title">100 SaaS Applications Database</h3>
+        <p class="section-desc">Search, filter by category, authentication type, buildability, and inspect full evidence trails.</p>
+      </div>
+
+      <!-- Controls & Filter Toolbar -->
+      <div class="catalog-toolbar">
+        <div class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="appSearchInput" placeholder="Search app name, description, API type, auth, or keyword... (Press '/' to focus)" autocomplete="off">
+          <button id="clearSearchBtn" class="clear-btn" style="display:none;">✕</button>
+        </div>
+
+        <div class="filter-group">
+          <select id="categoryFilter" class="filter-select">
+            <option value="ALL">All Categories (10)</option>
+            <option value="CRM and Sales">CRM and Sales (10)</option>
+            <option value="Support and Helpdesk">Support and Helpdesk (10)</option>
+            <option value="Communications and Messaging">Communications and Messaging (10)</option>
+            <option value="Marketing, Ads, Email and Social">Marketing, Ads, Email and Social (10)</option>
+            <option value="Ecommerce">Ecommerce (10)</option>
+            <option value="Data, SEO and Scraping">Data, SEO and Scraping (10)</option>
+            <option value="Developer, Infra and Data platforms">Developer, Infra and Data platforms (10)</option>
+            <option value="Productivity and Project Management">Productivity and Project Management (10)</option>
+            <option value="Finance and Fintech">Finance and Fintech (10)</option>
+            <option value="AI, Research and Media-native">AI, Research and Media-native (10)</option>
+          </select>
+
+          <select id="verdictFilter" class="filter-select">
+            <option value="ALL">All Buildability Verdicts</option>
+            <option value="Easy Win">Easy Win (80)</option>
+            <option value="Buildable">Buildable (9)</option>
+            <option value="Needs Investigation">Needs Investigation (0)</option>
+            <option value="Gated / Outreach">Gated / Outreach (10)</option>
+            <option value="Not Practical">Not Practical (1)</option>
+          </select>
+
+          <select id="authFilter" class="filter-select">
+            <option value="ALL">All Auth Types</option>
+            <option value="OAuth2">OAuth2 (60)</option>
+            <option value="Bearer/PAT">Bearer / PAT (48)</option>
+            <option value="API Key">API Key (45)</option>
+            <option value="Basic">Basic Auth (16)</option>
+          </select>
+
+          <select id="mcpFilter" class="filter-select">
+            <option value="ALL">All MCP Statuses</option>
+            <option value="available">MCP Available (33)</option>
+            <option value="First-party">1st-Party MCP (2)</option>
+            <option value="Community">Community MCP (31)</option>
+            <option value="None">No MCP (67)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results Count & Active Pills -->
+      <div class="results-meta-bar">
+        <div class="results-count">Showing <span id="displayedCount">100</span> of 100 applications</div>
+        <div class="active-filters-pills" id="activeFilterPills"></div>
+      </div>
+
+      <!-- The 100-App Table -->
+      <div class="table-card">
+        <div class="table-responsive">
+          <table class="app-table" id="appsTable">
+            <thead>
+              <tr>
+                <th class="sortable" data-sort="name">App Name <span class="sort-indicator"></span></th>
+                <th class="sortable" data-sort="category">Category <span class="sort-indicator"></span></th>
+                <th>What It Does</th>
+                <th>Authentication</th>
+                <th>Setup Model</th>
+                <th>API Type</th>
+                <th>MCP Status</th>
+                <th class="sortable" data-sort="verdict">Buildability <span class="sort-indicator"></span></th>
+                <th>Evidence</th>
+              </tr>
+            </thead>
+            <tbody id="appsTableBody">
+              <!-- Populated via app.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Methodology & Evidence Rigor -->
+  <section id="methodology" class="methodology-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">EVIDENCE INTEGRITY</span>
+        <h3 class="section-title">Research Methodology & Rules</h3>
+      </div>
+      <div class="method-grid">
+        <div class="method-card">
+          <div class="method-num">01</div>
+          <h4>Hierarchical Source Priority</h4>
+          <p>Official developer portals (<code>developer.domain.com</code>, <code>docs.domain.com</code>) take absolute precedence. Secondary blog posts and forum comments are rejected.</p>
+        </div>
+        <div class="method-card">
+          <div class="method-num">02</div>
+          <h4>Verbatim Evidence Snippets</h4>
+          <p>Every claim (e.g. "Personal Access Tokens available in account settings") must link directly to an active URL and include verbatim snippet text.</p>
+        </div>
+        <div class="method-card">
+          <div class="method-num">03</div>
+          <h4>Immutable First-Pass Snapshot</h4>
+          <p>Raw first-pass outputs are preserved separately from the corrected dataset, allowing the verification process and accuracy improvement to be audited.</p>
+        </div>
+        <div class="method-card">
+          <div class="method-num">04</div>
+          <h4>Structured Stratified Verification</h4>
+          <p>A balanced 20-app sample across 4 difficulty tiers was manually vetted across 8 discrete claims (160 claims total) to calculate audited accuracy metrics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: GitHub & Runnable Agent -->
+  <section class="github-section">
+    <div class="container text-center">
+      <div class="cta-card">
+        <h3>Inspect the Code & Run the Agent</h3>
+        <p>The entire research pipeline is open, reproducible, and verifiable locally with Node.js.</p>
+        <div class="code-snippet-box">
+          <code>git clone https://github.com/akhil-cheela/composio-saas-integration-research<br>cd composio-saas-integration-research<br>node src/pipeline.js</code>
+        </div>
+        <div class="cta-actions">
+          <a href="https://github.com/akhil-cheela/composio-saas-integration-research" target="_blank" class="btn btn-primary">View GitHub Repository</a>
+          <button id="downloadFinalJsonBtn" class="btn btn-secondary">Download final_dataset.json</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>AI Product Ops • SaaS Integration Research System • 100 Apps Case Study</div>
+      <div class="footer-meta">Repository: <a href="https://github.com/akhil-cheela/composio-saas-integration-research" target="_blank" style="color:#00d4ff;">github.com/akhil-cheela/composio-saas-integration-research</a></div>
+    </div>
+  </footer>
+
+  <!-- App Detail Evidence Modal / Drawer -->
+  <div id="detailModal" class="modal-backdrop" style="display:none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-area">
+          <h3 id="modalAppName">Application Name</h3>
+          <span id="modalAppCategory" class="badge">Category</span>
+        </div>
+        <button id="modalCloseBtn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Content inserted dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

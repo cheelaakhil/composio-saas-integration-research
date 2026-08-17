@@ -1,0 +1,122 @@
+{
+  "category_x_buildability": {
+    "CRM and Sales": {
+      "Easy Win": 7,
+      "Buildable": 2,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 1,
+      "Not Practical": 0
+    },
+    "Support and Helpdesk": {
+      "Easy Win": 10,
+      "Buildable": 0,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 0,
+      "Not Practical": 0
+    },
+    "Communications and Messaging": {
+      "Easy Win": 10,
+      "Buildable": 0,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 0,
+      "Not Practical": 0
+    },
+    "Marketing, Ads, Email and Social": {
+      "Easy Win": 7,
+      "Buildable": 0,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 3,
+      "Not Practical": 0
+    },
+    "Ecommerce": {
+      "Easy Win": 7,
+      "Buildable": 1,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 2,
+      "Not Practical": 0
+    },
+    "Data, SEO and Scraping": {
+      "Easy Win": 7,
+      "Buildable": 3,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 0,
+      "Not Practical": 0
+    },
+    "Developer, Infra and Data platforms": {
+      "Easy Win": 9,
+      "Buildable": 1,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 0,
+      "Not Practical": 0
+    },
+    "Productivity and Project Management": {
+      "Easy Win": 10,
+      "Buildable": 0,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 0,
+      "Not Practical": 0
+    },
+    "Finance and Fintech": {
+      "Easy Win": 5,
+      "Buildable": 2,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 3,
+      "Not Practical": 0
+    },
+    "AI, Research and Media-native": {
+      "Easy Win": 8,
+      "Buildable": 0,
+      "Needs Investigation": 0,
+      "Gated / Outreach": 1,
+      "Not Practical": 1
+    }
+  },
+  "auth_x_self_serve": {
+    "OAuth2": {
+      "self_serve": 14,
+      "gated": 6,
+      "total": 20
+    },
+    "Bearer/PAT": {
+      "self_serve": 45,
+      "gated": 1,
+      "total": 46
+    },
+    "Basic": {
+      "self_serve": 12,
+      "gated": 0,
+      "total": 12
+    },
+    "API Key": {
+      "self_serve": 16,
+      "gated": 1,
+      "total": 17
+    },
+    "Custom": {
+      "self_serve": 0,
+      "gated": 2,
+      "total": 2
+    },
+    "Session": {
+      "self_serve": 0,
+      "gated": 1,
+      "total": 1
+    },
+    "CLI/Local": {
+      "self_serve": 1,
+      "gated": 0,
+      "total": 1
+    },
+    "None": {
+      "self_serve": 1,
+      "gated": 0,
+      "total": 1
+    }
+  },
+  "api_x_credential_availability": {
+    "Public API + Self-Serve Credentials (Easy Ingest)": 89,
+    "Public API + Paid/Enterprise Gated (Contract Barrier)": 1,
+    "Public API + Partner/Admin Gated (Approval Barrier)": 9,
+    "No Active Public API (Sunset/Restricted)": 1
+  }
+}

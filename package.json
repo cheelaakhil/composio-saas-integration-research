@@ -1,0 +1,16 @@
+{
+  "name": "saas-integration-research-system",
+  "version": "1.0.0",
+  "description": "AI-driven research system analyzing 100 SaaS apps for integration readiness",
+  "type": "module",
+  "scripts": {
+    "research": "node src/researcher/index.js",
+    "research:single": "node src/researcher/index.js --single",
+    "verify": "node src/verifier/index.js",
+    "analyze": "node src/analyzer/index.js",
+    "pipeline": "node src/pipeline.js",
+    "serve": "npx http-server case-study -p 3000 -o"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

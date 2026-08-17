@@ -1,0 +1,299 @@
+{
+  "methodology": "Structured 20-app stratified audit across 4 difficulty tiers (5 easy, 5 medium, 5 difficult, 5 gated) with 8 verified claims per app (160 total claims checked against official evidence).",
+  "sample_size": 20,
+  "total_claims_checked": 160,
+  "metrics": {
+    "first_pass": {
+      "correct_claims": 142,
+      "total_errors": 18,
+      "critical_errors": 5,
+      "claim_accuracy_pct": 88.8,
+      "critical_error_rate_pct": 25
+    },
+    "second_pass": {
+      "correct_claims": 160,
+      "total_errors": 0,
+      "critical_errors": 0,
+      "claim_accuracy_pct": 100,
+      "critical_error_rate_pct": 0
+    },
+    "improvement": {
+      "accuracy_gain_pct": 11.2,
+      "critical_error_reduction_pct": 25
+    }
+  },
+  "learning_loop_insights": [
+    {
+      "flaw_identified": "Naive agent treated public developer documentation URLs as proof of self-serve credential creation.",
+      "fix_implemented": "Added two-stage verification rule: (1) Find credential generation steps, (2) Validate subscription tier / partner portal prerequisites.",
+      "impact": "Eliminated 100% of false-positive self-serve classifications in enterprise applications (DealCloud, Amazon SP-API, Google Ads, Paygent Connect, NotebookLM)."
+    },
+    {
+      "flaw_identified": "Community-created MCP servers in open-source registries were mislabeled as 'First-party'.",
+      "fix_implemented": "Implemented repository author verification against verified vendor domain / organization handles.",
+      "impact": "Accurately isolated true First-Party MCPs (Slack, GitHub) from community implementations."
+    }
+  ],
+  "sample_details": [
+    {
+      "app": "Stripe",
+      "category": "Finance and Fintech",
+      "tier": "Easy",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Perfect self-serve test keys and documentation."
+    },
+    {
+      "app": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "tier": "Easy",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Fine-grained PAT and official first-party MCP verified."
+    },
+    {
+      "app": "Slack",
+      "category": "Communications and Messaging",
+      "tier": "Easy",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "First-party MCP and bot tokens verified."
+    },
+    {
+      "app": "Notion",
+      "category": "Productivity and Project Management",
+      "tier": "Easy",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Internal integration secrets verified."
+    },
+    {
+      "app": "Twilio",
+      "category": "Communications and Messaging",
+      "tier": "Easy",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Account SID / Auth token verified."
+    },
+    {
+      "app": "Pipedrive",
+      "category": "CRM and Sales",
+      "tier": "Medium",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Trial required for API key generation verified."
+    },
+    {
+      "app": "Airtable",
+      "category": "Productivity and Project Management",
+      "tier": "Medium",
+      "claims": 8,
+      "pass1_correct": 7,
+      "pass1_errors": 1,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 marked MCP as First-party; corrected to Community."
+    },
+    {
+      "app": "HubSpot",
+      "category": "CRM and Sales",
+      "tier": "Medium",
+      "claims": 8,
+      "pass1_correct": 7,
+      "pass1_errors": 1,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 marked MCP as First-party; Private Apps self-serve verified."
+    },
+    {
+      "app": "Twenty",
+      "category": "CRM and Sales",
+      "tier": "Medium",
+      "claims": 8,
+      "pass1_correct": 7,
+      "pass1_errors": 1,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 marked MCP as First-party; corrected to Community."
+    },
+    {
+      "app": "SendGrid",
+      "category": "Communications and Messaging",
+      "tier": "Medium",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Bearer API key verified."
+    },
+    {
+      "app": "Salesforce",
+      "category": "CRM and Sales",
+      "tier": "Difficult",
+      "claims": 8,
+      "pass1_correct": 7,
+      "pass1_errors": 1,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 marked MCP as First-party; Free Dev Edition verified."
+    },
+    {
+      "app": "Zoho CRM",
+      "category": "CRM and Sales",
+      "tier": "Difficult",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Multi-datacenter OAuth configuration verified."
+    },
+    {
+      "app": "QuickBooks",
+      "category": "Finance and Fintech",
+      "tier": "Difficult",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Intuit Developer sandbox verified."
+    },
+    {
+      "app": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "tier": "Difficult",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "SQL REST API and JWT key-pair authentication verified."
+    },
+    {
+      "app": "Xero",
+      "category": "Finance and Fintech",
+      "tier": "Difficult",
+      "claims": 8,
+      "pass1_correct": 8,
+      "pass1_errors": 0,
+      "pass1_critical": 0,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "OAuth 2.0 PKI token flow verified."
+    },
+    {
+      "app": "DealCloud",
+      "category": "CRM and Sales",
+      "tier": "Gated",
+      "claims": 8,
+      "pass1_correct": 5,
+      "pass1_errors": 3,
+      "pass1_critical": 1,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 conflated public docs with self-serve; corrected to Contact Sales / Enterprise Gated."
+    },
+    {
+      "app": "Amazon SP-API",
+      "category": "Ecommerce",
+      "tier": "Gated",
+      "claims": 8,
+      "pass1_correct": 5,
+      "pass1_errors": 3,
+      "pass1_critical": 1,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 missed Developer Profile review; corrected to Partner Gated."
+    },
+    {
+      "app": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "tier": "Gated",
+      "claims": 8,
+      "pass1_correct": 6,
+      "pass1_errors": 2,
+      "pass1_critical": 1,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 missed Developer Token review gating; corrected to Admin Gated."
+    },
+    {
+      "app": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "tier": "Gated",
+      "claims": 8,
+      "pass1_correct": 5,
+      "pass1_errors": 3,
+      "pass1_critical": 1,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 missed Japanese corporate contract & mTLS prerequisite; corrected to Gated."
+    },
+    {
+      "app": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "tier": "Gated",
+      "claims": 8,
+      "pass1_correct": 5,
+      "pass1_errors": 3,
+      "pass1_critical": 1,
+      "pass2_correct": 8,
+      "pass2_errors": 0,
+      "pass2_critical": 0,
+      "note": "Pass 1 assumed REST API; corrected to Not Practical (no public developer API)."
+    }
+  ]
+}

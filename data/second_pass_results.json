@@ -1,0 +1,800 @@
+[
+  {
+    "app": {
+      "name": "Salesforce",
+      "category": "CRM and Sales",
+      "description": "Enterprise CRM platform for sales pipeline management, custom objects, and workflow automation."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Free tier available",
+      "self_serve": true,
+      "gated": false,
+      "gating_reason": null
+    },
+    "api": {
+      "type": "Both",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": true,
+      "type": "Community",
+      "agent_callable": true,
+      "source_url": "https://github.com/modelcontextprotocol/servers"
+    },
+    "buildability": {
+      "verdict": "Buildable",
+      "primary_blocker": "Connected App configuration and OAuth scope permission sets required.",
+      "effort_estimate": "High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
+        "https://developer.salesforce.com/signup"
+      ],
+      "snippets": [
+        {
+          "claim": "REST and GraphQL API availability with extensive write capabilities",
+          "source": "developer.salesforce.com",
+          "quote": "The Salesforce REST API lets you integrate with Salesforce applications using standard HTTP methods."
+        },
+        {
+          "claim": "Free Developer Edition accounts offer self-serve credential creation",
+          "source": "developer.salesforce.com/signup",
+          "quote": "Developer Edition provides a free, full-featured Salesforce environment with API access."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "HubSpot",
+      "category": "CRM and Sales",
+      "description": "Inbound CRM, sales pipeline, and customer lifecycle management software."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2",
+        "API Key"
+      ],
+      "credential_setup": "Self-serve signup",
+      "self_serve": true,
+      "gated": false,
+      "gating_reason": null
+    },
+    "api": {
+      "type": "Both",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": true,
+      "type": "Community",
+      "agent_callable": true,
+      "source_url": "https://github.com/hubspot-community"
+    },
+    "buildability": {
+      "verdict": "Easy Win",
+      "primary_blocker": null,
+      "effort_estimate": "Low"
+    },
+    "evidence": {
+      "urls": [
+        "https://developers.hubspot.com/docs/api/overview",
+        "https://developers.hubspot.com/docs/api/private-apps"
+      ],
+      "snippets": [
+        {
+          "claim": "Private Apps allow immediate access token generation without app marketplace approval",
+          "source": "developers.hubspot.com",
+          "quote": "Private apps allow you to use HubSpot's APIs to access your HubSpot account's data via access tokens."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Twenty",
+      "category": "CRM and Sales",
+      "description": "Modern open-source CRM alternative to Salesforce with GraphQL and REST APIs."
+    },
+    "authentication": {
+      "methods": [
+        "Bearer/PAT",
+        "OAuth2"
+      ],
+      "credential_setup": "Open Source / Local",
+      "self_serve": true,
+      "gated": false,
+      "gating_reason": null
+    },
+    "api": {
+      "type": "Both",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": true,
+      "type": "Community",
+      "agent_callable": true,
+      "source_url": "https://github.com/twentyhq/twenty"
+    },
+    "buildability": {
+      "verdict": "Easy Win",
+      "primary_blocker": null,
+      "effort_estimate": "Low"
+    },
+    "evidence": {
+      "urls": [
+        "https://docs.twenty.com/developers/api",
+        "https://docs.twenty.com/developers/authentication"
+      ],
+      "snippets": [
+        {
+          "claim": "Open-source architecture provides instant self-serve API keys and GraphQL schema introspection",
+          "source": "docs.twenty.com",
+          "quote": "Twenty provides both REST and GraphQL APIs authenticated via Bearer tokens generated directly in settings."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "DealCloud",
+      "category": "CRM and Sales",
+      "description": "Vertical CRM and deal management platform for private equity, investment banking, and M&A."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Contact sales",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Enterprise financial services CRM; requires active institutional contract and tenant administrator API key provisioning."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Enterprise contract and DealCloud admin provisioning required.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developer.dealcloud.com/",
+        "https://www.intapp.com/dealcloud/"
+      ],
+      "snippets": [
+        {
+          "claim": "DealCloud REST API access requires enterprise client credentials issued by Intapp support",
+          "source": "developer.dealcloud.com",
+          "quote": "DealCloud APIs provide programmatic access to entries, lists, and relationships authenticated via OAuth 2.0."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Hootsuite",
+      "category": "Marketing, Ads, Email and Social",
+      "description": "Enterprise social media marketing and multi-channel scheduling dashboard."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Paid plan required",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Developer portal requires an active enterprise subscription or Hootsuite App Directory partner application."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Moderate",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "App Directory partner approval and enterprise tier required for API credentials.",
+      "effort_estimate": "High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developer.hootsuite.com/docs/api-documentation",
+        "https://developer.hootsuite.com/docs/getting-started"
+      ],
+      "snippets": [
+        {
+          "claim": "Hootsuite developer account requires partner review or enterprise account linkage",
+          "source": "developer.hootsuite.com",
+          "quote": "Access to Hootsuite's APIs requires approval through the Hootsuite Developer Portal."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "description": "Online advertising platform developed by Google for search, display, and video ads."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Admin approval",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Requires Google Developer Token application approval and Google Cloud OAuth2 credentials."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Developer Token review and production access approval by Google Ads API compliance team.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developers.google.com/google-ads/api/docs/first-call/overview",
+        "https://developers.google.com/google-ads/api/docs/access-levels"
+      ],
+      "snippets": [
+        {
+          "claim": "Developer Token required alongside OAuth2 client ID/secret to make API calls",
+          "source": "developers.google.com/google-ads/api",
+          "quote": "To use the Google Ads API, you need a developer token, OAuth2 client ID, client secret, and refresh token."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "description": "Digital advertising platform for Instagram and Facebook marketing campaigns."
+    },
+    "authentication": {
+      "methods": [
+        "Bearer/PAT",
+        "OAuth2"
+      ],
+      "credential_setup": "Admin approval",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Requires Meta App Review, Business Verification, and ads_management permission approval for production."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Meta App Review, business verification, and ads_management permission review.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developers.facebook.com/docs/marketing-apis",
+        "https://developers.facebook.com/docs/marketing-api/overview/authentication"
+      ],
+      "snippets": [
+        {
+          "claim": "Marketing API requires App Review and Business Verification for production ads management",
+          "source": "developers.facebook.com/docs/marketing-apis",
+          "quote": "To access live campaign management outside of sandbox test accounts, you must submit your app for App Review."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "description": "Enterprise ecommerce platform (B2C/B2B Commerce) offering headless SCAPI endpoints."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Contact sales",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Requires active Salesforce B2C Commerce contract and Account Manager client registration."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Enterprise contract and SLAS/Account Manager client ID provisioning required.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developer.salesforce.com/docs/commerce/commerce-api/guide/overview.html",
+        "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization-for-shopper-apis.html"
+      ],
+      "snippets": [
+        {
+          "claim": "Salesforce Commerce API (SCAPI) requires SLAS client credentials provisioned in Business Manager",
+          "source": "developer.salesforce.com/docs/commerce",
+          "quote": "To use Salesforce Commerce APIs, developers authenticate using Shopper Login and API Access Service (SLAS) OAuth tokens."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Amazon SP-API",
+      "category": "Ecommerce",
+      "description": "Amazon Selling Partner API for seller central inventory, orders, pricing, and fulfillment."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Partner program",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Requires Professional Selling Account, AWS IAM Role configuration, and Developer Profile approval by Amazon."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Amazon Developer Profile approval and AWS IAM role LWA authorization required.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://developer-docs.amazon.com/sp-api/",
+        "https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications"
+      ],
+      "snippets": [
+        {
+          "claim": "SP-API requires Login with Amazon (LWA) and AWS Signature Version 4 signing",
+          "source": "developer-docs.amazon.com/sp-api",
+          "quote": "To call the Selling Partner API, your app must be authorized by a seller and authenticate with LWA access tokens."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Airtable",
+      "category": "Productivity and Project Management",
+      "description": "Low-code platform for building collaborative database applications and workflows."
+    },
+    "authentication": {
+      "methods": [
+        "Bearer/PAT",
+        "OAuth2"
+      ],
+      "credential_setup": "Free tier available",
+      "self_serve": true,
+      "gated": false,
+      "gating_reason": null
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": true,
+      "type": "Community",
+      "agent_callable": true,
+      "source_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/airtable"
+    },
+    "buildability": {
+      "verdict": "Easy Win",
+      "primary_blocker": null,
+      "effort_estimate": "Low"
+    },
+    "evidence": {
+      "urls": [
+        "https://airtable.com/developers/web/api/introduction",
+        "https://airtable.com/create/tokens"
+      ],
+      "snippets": [
+        {
+          "claim": "Personal Access Tokens with granular read/write and schema scopes",
+          "source": "airtable.com/developers",
+          "quote": "Personal access tokens allow you to securely grant access to your Airtable data and schema via REST API."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Stripe",
+      "category": "Finance and Fintech",
+      "description": "Payment processing platform and suite of APIs for internet commerce."
+    },
+    "authentication": {
+      "methods": [
+        "Bearer/PAT",
+        "API Key"
+      ],
+      "credential_setup": "Free tier available",
+      "self_serve": true,
+      "gated": false,
+      "gating_reason": null
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": true,
+      "type": "Community",
+      "agent_callable": true,
+      "source_url": "https://github.com/modelcontextprotocol/servers"
+    },
+    "buildability": {
+      "verdict": "Easy Win",
+      "primary_blocker": null,
+      "effort_estimate": "Low"
+    },
+    "evidence": {
+      "urls": [
+        "https://stripe.com/docs/api",
+        "https://dashboard.stripe.com/test/apikeys"
+      ],
+      "snippets": [
+        {
+          "claim": "Instant test mode API keys (sk_test_) available upon signup without verification",
+          "source": "stripe.com/docs/api",
+          "quote": "Authenticate your API requests by including your secret API key in the request using Authorization: Bearer."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "description": "Japanese payment gateway service by DeNA / Paygent providing credit card and multi-payment APIs."
+    },
+    "authentication": {
+      "methods": [
+        "Custom",
+        "Basic"
+      ],
+      "credential_setup": "Contact sales",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Requires merchant corporate contract in Japan, merchant ID verification, and mTLS client certificate authentication."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Moderate",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Corporate contract in Japan and mTLS certificate authentication required.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://www.paygent.co.jp/service/connect/",
+        "https://www.paygent.co.jp/developer/"
+      ],
+      "snippets": [
+        {
+          "claim": "Paygent Connect module requires merchant contract, static IP whitelisting, and SSL certificate auth",
+          "source": "paygent.co.jp/developer",
+          "quote": "Paygent API communication requires an assigned Merchant ID, connection password, and client certificate installation."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "iPayX",
+      "category": "Finance and Fintech",
+      "description": "Enterprise electronic billing, payment processing, and municipal receivables portal."
+    },
+    "authentication": {
+      "methods": [
+        "Custom",
+        "Basic"
+      ],
+      "credential_setup": "Contact sales",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Enterprise government and utility payment gateway; requires formal institutional agreement and VPN/IP whitelisting."
+    },
+    "api": {
+      "type": "SOAP",
+      "breadth": "Limited",
+      "write_operations": true,
+      "webhooks": false
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": false,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Institutional sales onboarding and legacy SOAP/VPN interface.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://www.ipayx.com/",
+        "https://www.ipayx.com/solutions"
+      ],
+      "snippets": [
+        {
+          "claim": "iPayX integration requires custom merchant onboarding and private gateway access",
+          "source": "ipayx.com/solutions",
+          "quote": "iPayX payment gateway solutions are tailored for institutional billers and require dedicated partner onboarding."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.650Z"
+    }
+  },
+  {
+    "app": {
+      "name": "PitchBook",
+      "category": "Finance and Fintech",
+      "description": "Financial data and market intelligence provider covering global VC, PE, and M&A transactions."
+    },
+    "authentication": {
+      "methods": [
+        "API Key",
+        "OAuth2"
+      ],
+      "credential_setup": "Contact sales",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Enterprise institutional data platform; API access requires dedicated Direct Data / API enterprise contract."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Comprehensive",
+      "write_operations": false,
+      "webhooks": false
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Enterprise contract ($25k+/yr) and institutional data license required.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://pitchbook.com/products/data/api",
+        "https://pitchbook.com/direct-data"
+      ],
+      "snippets": [
+        {
+          "claim": "PitchBook Direct Data API requires enterprise subscription and custom API key provisioning",
+          "source": "pitchbook.com/products/data/api",
+          "quote": "PitchBook's API provides raw data feeds on companies, deals, investors, and funds directly to enterprise data warehouses."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.651Z"
+    }
+  },
+  {
+    "app": {
+      "name": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "description": "Google's AI-first personalized research assistant and document grounding notebook."
+    },
+    "authentication": {
+      "methods": [
+        "Session",
+        "OAuth2"
+      ],
+      "credential_setup": "Free tier available",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Consumer / web-only Google product; lacks public standalone REST API credentials (requires browser automation or internal Gemini APIs)."
+    },
+    "api": {
+      "type": "None",
+      "breadth": "None",
+      "write_operations": false,
+      "webhooks": false
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": false,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Not Practical",
+      "primary_blocker": "No public developer API or programmatic token generation; consumer web interface only.",
+      "effort_estimate": "Very High"
+    },
+    "evidence": {
+      "urls": [
+        "https://notebooklm.google.com/",
+        "https://support.google.com/notebooklm"
+      ],
+      "snippets": [
+        {
+          "claim": "NotebookLM operates as an end-user web application without a public REST API surface",
+          "source": "notebooklm.google.com",
+          "quote": "NotebookLM is an experimental web application. Currently, no public developer API keys or programmatic access points are available."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.651Z"
+    }
+  },
+  {
+    "app": {
+      "name": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "description": "AI meeting assistant for live audio transcription, notes, and collaborative summaries."
+    },
+    "authentication": {
+      "methods": [
+        "OAuth2"
+      ],
+      "credential_setup": "Contact sales",
+      "self_serve": false,
+      "gated": true,
+      "gating_reason": "Otter API access is restricted to Otter Business/Enterprise plans and requires enterprise partnership approval."
+    },
+    "api": {
+      "type": "REST",
+      "breadth": "Moderate",
+      "write_operations": true,
+      "webhooks": true
+    },
+    "mcp": {
+      "available": false,
+      "type": "None",
+      "agent_callable": true,
+      "source_url": null
+    },
+    "buildability": {
+      "verdict": "Gated / Outreach",
+      "primary_blocker": "Enterprise contract and Otter partnership developer onboarding required.",
+      "effort_estimate": "High"
+    },
+    "evidence": {
+      "urls": [
+        "https://otter.ai/enterprise",
+        "https://help.otter.ai/hc/en-us/articles/360049281694-Otter-Integrations"
+      ],
+      "snippets": [
+        {
+          "claim": "Otter direct API integration requires enterprise tier contract and commercial access approval",
+          "source": "help.otter.ai",
+          "quote": "Direct API access for Otter transcription and speech indexing is available on custom enterprise agreements."
+        }
+      ],
+      "confidence": "HIGH",
+      "verification_status": "Verified",
+      "last_checked": "2026-08-17T12:13:15.651Z"
+    }
+  }
+]

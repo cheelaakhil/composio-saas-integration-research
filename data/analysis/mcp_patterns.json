@@ -1,0 +1,26 @@
+{
+  "available_count": 33,
+  "available_pct": 33,
+  "distribution": [
+    {
+      "name": "None",
+      "count": 67,
+      "percentage": 67
+    },
+    {
+      "name": "Community",
+      "count": 31,
+      "percentage": 31
+    },
+    {
+      "name": "First-party",
+      "count": 2,
+      "percentage": 2
+    },
+    {
+      "name": "Third-party",
+      "count": 0,
+      "percentage": 0
+    }
+  ]
+}

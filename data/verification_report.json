@@ -1,0 +1,1299 @@
+{
+  "generated_at": "2026-08-17T12:13:15.637Z",
+  "total_audited": 100,
+  "summary": {
+    "high_confidence": 84,
+    "medium_review": 5,
+    "low_confidence": 0,
+    "contradictions": 11,
+    "total_flagged_for_re_research": 16
+  },
+  "flagged_apps": [
+    {
+      "appName": "Salesforce",
+      "category": "CRM and Sales",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Salesforce is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "HubSpot",
+      "category": "CRM and Sales",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for HubSpot is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "Twenty",
+      "category": "CRM and Sales",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Twenty is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "DealCloud",
+      "category": "CRM and Sales",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Hootsuite",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Amazon SP-API",
+      "category": "Ecommerce",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Airtable",
+      "category": "Productivity and Project Management",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Airtable is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "Stripe",
+      "category": "Finance and Fintech",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Stripe is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "iPayX",
+      "category": "Finance and Fintech",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "PitchBook",
+      "category": "Finance and Fintech",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Platform has no public developer REST/GraphQL APIs; buildability must reflect \"Not Practical\".",
+          "field": "buildability.verdict"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    }
+  ],
+  "detailed_audits": [
+    {
+      "appName": "Salesforce",
+      "category": "CRM and Sales",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Salesforce is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "HubSpot",
+      "category": "CRM and Sales",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for HubSpot is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "Pipedrive",
+      "category": "CRM and Sales",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Attio",
+      "category": "CRM and Sales",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Twenty",
+      "category": "CRM and Sales",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Twenty is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "Podio",
+      "category": "CRM and Sales",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Zoho CRM",
+      "category": "CRM and Sales",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Close",
+      "category": "CRM and Sales",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Copper",
+      "category": "CRM and Sales",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "DealCloud",
+      "category": "CRM and Sales",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Zendesk",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Freshdesk",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Intercom",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Front",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Help Scout",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Gorgias",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Kustomer",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Pylon",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "LiveAgent",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Plain",
+      "category": "Support and Helpdesk",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Slack",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Discord",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Twilio",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "SendGrid",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Zoho Cliq",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Lark",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Pumble",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Aircall",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Vonage",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Telegram",
+      "category": "Communications and Messaging",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Mailchimp",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "ActiveCampaign",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Klaviyo",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "systeme.io",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Buffer",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Hootsuite",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Pinterest",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Threads",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Google Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Meta Ads",
+      "category": "Marketing, Ads, Email and Social",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Shopify",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "WooCommerce",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "BigCommerce",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Salesforce Commerce Cloud",
+      "category": "Ecommerce",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Adobe Commerce",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Squarespace",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Ecwid",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Amazon SP-API",
+      "category": "Ecommerce",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "fanbasis",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Gumroad",
+      "category": "Ecommerce",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Semrush",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Ahrefs",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "DataForSEO",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "SE Ranking",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "MrScraper",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Firecrawl",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Waterfall.io",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Clay",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Apify",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Apollo",
+      "category": "Data, SEO and Scraping",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "GitHub",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Jira",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Linear",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Vercel",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Netlify",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Cloudflare",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Snowflake",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "MongoDB Atlas",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Neo4j",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Supabase",
+      "category": "Developer, Infra and Data platforms",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Notion",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Airtable",
+      "category": "Productivity and Project Management",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Airtable is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "Coda",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "ClickUp",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Asana",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Monday.com",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Smartsheet",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Harvest",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Trello",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Todoist",
+      "category": "Productivity and Project Management",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Stripe",
+      "category": "Finance and Fintech",
+      "auditStatus": "MEDIUM",
+      "requiresReresearch": true,
+      "flagCount": 1,
+      "flags": [
+        {
+          "type": "MEDIUM",
+          "severity": "MODERATE",
+          "issue": "MCP server for Stripe is community-built, not officially authored by the vendor.",
+          "field": "mcp.type"
+        }
+      ]
+    },
+    {
+      "appName": "QuickBooks",
+      "category": "Finance and Fintech",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Xero",
+      "category": "Finance and Fintech",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Brex",
+      "category": "Finance and Fintech",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Ramp",
+      "category": "Finance and Fintech",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Binance",
+      "category": "Finance and Fintech",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Paygent Connect",
+      "category": "Finance and Fintech",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "iPayX",
+      "category": "Finance and Fintech",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "PitchBook",
+      "category": "Finance and Fintech",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Plaid",
+      "category": "Finance and Fintech",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "NotebookLM",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Platform has no public developer REST/GraphQL APIs; buildability must reflect \"Not Practical\".",
+          "field": "buildability.verdict"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Otter AI",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "CONTRADICTION",
+      "requiresReresearch": true,
+      "flagCount": 2,
+      "flags": [
+        {
+          "type": "CONTRADICTION",
+          "severity": "CRITICAL",
+          "issue": "Conflating public API documentation with self-serve credential access. Enterprise contract or partner approval required.",
+          "field": "authentication.self_serve"
+        },
+        {
+          "type": "LOW",
+          "severity": "HIGH",
+          "issue": "Marked with LOW confidence by initial collector.",
+          "field": "evidence.confidence"
+        }
+      ]
+    },
+    {
+      "appName": "Fathom",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Consensus",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Reducto",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Devin",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Higgsfield",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Mermaid CLI",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "YouTube Transcript",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    },
+    {
+      "appName": "Grain",
+      "category": "AI, Research and Media-native",
+      "auditStatus": "HIGH CONFIDENCE",
+      "requiresReresearch": false,
+      "flagCount": 0,
+      "flags": []
+    }
+  ]
+}

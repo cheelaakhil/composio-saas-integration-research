@@ -1,0 +1,156 @@
+{
+  "version": "3.0",
+  "total_apps": 100,
+  "categories": [
+    {
+      "name": "CRM and Sales",
+      "apps": [
+        {"name": "Salesforce", "slug": "salesforce", "domain": "salesforce.com"},
+        {"name": "HubSpot", "slug": "hubspot", "domain": "hubspot.com"},
+        {"name": "Pipedrive", "slug": "pipedrive", "domain": "pipedrive.com"},
+        {"name": "Attio", "slug": "attio", "domain": "attio.com"},
+        {"name": "Twenty", "slug": "twenty", "domain": "twenty.com"},
+        {"name": "Podio", "slug": "podio", "domain": "podio.com"},
+        {"name": "Zoho CRM", "slug": "zoho-crm", "domain": "zoho.com"},
+        {"name": "Close", "slug": "close", "domain": "close.com"},
+        {"name": "Copper", "slug": "copper", "domain": "copper.com"},
+        {"name": "DealCloud", "slug": "dealcloud", "domain": "dealcloud.com"}
+      ]
+    },
+    {
+      "name": "Support and Helpdesk",
+      "apps": [
+        {"name": "Zendesk", "slug": "zendesk", "domain": "zendesk.com"},
+        {"name": "Freshdesk", "slug": "freshdesk", "domain": "freshworks.com"},
+        {"name": "Intercom", "slug": "intercom", "domain": "intercom.com"},
+        {"name": "Front", "slug": "front", "domain": "front.com"},
+        {"name": "Help Scout", "slug": "help-scout", "domain": "helpscout.com"},
+        {"name": "Gorgias", "slug": "gorgias", "domain": "gorgias.com"},
+        {"name": "Kustomer", "slug": "kustomer", "domain": "kustomer.com"},
+        {"name": "Pylon", "slug": "pylon", "domain": "usepylon.com"},
+        {"name": "LiveAgent", "slug": "liveagent", "domain": "liveagent.com"},
+        {"name": "Plain", "slug": "plain", "domain": "plain.com"}
+      ]
+    },
+    {
+      "name": "Communications and Messaging",
+      "apps": [
+        {"name": "Slack", "slug": "slack", "domain": "slack.com"},
+        {"name": "Discord", "slug": "discord", "domain": "discord.com"},
+        {"name": "Twilio", "slug": "twilio", "domain": "twilio.com"},
+        {"name": "SendGrid", "slug": "sendgrid", "domain": "sendgrid.com"},
+        {"name": "Zoho Cliq", "slug": "zoho-cliq", "domain": "zoho.com/cliq"},
+        {"name": "Lark", "slug": "lark", "domain": "larksuite.com"},
+        {"name": "Pumble", "slug": "pumble", "domain": "pumble.com"},
+        {"name": "Aircall", "slug": "aircall", "domain": "aircall.io"},
+        {"name": "Vonage", "slug": "vonage", "domain": "vonage.com"},
+        {"name": "Telegram", "slug": "telegram", "domain": "telegram.org"}
+      ]
+    },
+    {
+      "name": "Marketing, Ads, Email and Social",
+      "apps": [
+        {"name": "Mailchimp", "slug": "mailchimp", "domain": "mailchimp.com"},
+        {"name": "ActiveCampaign", "slug": "activecampaign", "domain": "activecampaign.com"},
+        {"name": "Klaviyo", "slug": "klaviyo", "domain": "klaviyo.com"},
+        {"name": "systeme.io", "slug": "systeme-io", "domain": "systeme.io"},
+        {"name": "Buffer", "slug": "buffer", "domain": "buffer.com"},
+        {"name": "Hootsuite", "slug": "hootsuite", "domain": "hootsuite.com"},
+        {"name": "Pinterest", "slug": "pinterest", "domain": "pinterest.com"},
+        {"name": "Threads", "slug": "threads", "domain": "threads.net"},
+        {"name": "Google Ads", "slug": "google-ads", "domain": "ads.google.com"},
+        {"name": "Meta Ads", "slug": "meta-ads", "domain": "facebook.com"}
+      ]
+    },
+    {
+      "name": "Ecommerce",
+      "apps": [
+        {"name": "Shopify", "slug": "shopify", "domain": "shopify.com"},
+        {"name": "WooCommerce", "slug": "woocommerce", "domain": "woocommerce.com"},
+        {"name": "BigCommerce", "slug": "bigcommerce", "domain": "bigcommerce.com"},
+        {"name": "Salesforce Commerce Cloud", "slug": "salesforce-commerce-cloud", "domain": "salesforce.com"},
+        {"name": "Adobe Commerce", "slug": "adobe-commerce", "domain": "adobe.com"},
+        {"name": "Squarespace", "slug": "squarespace", "domain": "squarespace.com"},
+        {"name": "Ecwid", "slug": "ecwid", "domain": "ecwid.com"},
+        {"name": "Amazon SP-API", "slug": "amazon-sp-api", "domain": "amazon.com"},
+        {"name": "fanbasis", "slug": "fanbasis", "domain": "fanbasis.com"},
+        {"name": "Gumroad", "slug": "gumroad", "domain": "gumroad.com"}
+      ]
+    },
+    {
+      "name": "Data, SEO and Scraping",
+      "apps": [
+        {"name": "Semrush", "slug": "semrush", "domain": "semrush.com"},
+        {"name": "Ahrefs", "slug": "ahrefs", "domain": "ahrefs.com"},
+        {"name": "DataForSEO", "slug": "dataforseo", "domain": "dataforseo.com"},
+        {"name": "SE Ranking", "slug": "se-ranking", "domain": "seranking.com"},
+        {"name": "MrScraper", "slug": "mrscraper", "domain": "mrscraper.com"},
+        {"name": "Firecrawl", "slug": "firecrawl", "domain": "firecrawl.dev"},
+        {"name": "Waterfall.io", "slug": "waterfall-io", "domain": "waterfall.io"},
+        {"name": "Clay", "slug": "clay", "domain": "clay.com"},
+        {"name": "Apify", "slug": "apify", "domain": "apify.com"},
+        {"name": "Apollo", "slug": "apollo", "domain": "apollo.io"}
+      ]
+    },
+    {
+      "name": "Developer, Infra and Data platforms",
+      "apps": [
+        {"name": "GitHub", "slug": "github", "domain": "github.com"},
+        {"name": "Jira", "slug": "jira", "domain": "atlassian.com"},
+        {"name": "Linear", "slug": "linear", "domain": "linear.app"},
+        {"name": "Vercel", "slug": "vercel", "domain": "vercel.com"},
+        {"name": "Netlify", "slug": "netlify", "domain": "netlify.com"},
+        {"name": "Cloudflare", "slug": "cloudflare", "domain": "cloudflare.com"},
+        {"name": "Snowflake", "slug": "snowflake", "domain": "snowflake.com"},
+        {"name": "MongoDB Atlas", "slug": "mongodb-atlas", "domain": "mongodb.com"},
+        {"name": "Neo4j", "slug": "neo4j", "domain": "neo4j.com"},
+        {"name": "Supabase", "slug": "supabase", "domain": "supabase.com"}
+      ]
+    },
+    {
+      "name": "Productivity and Project Management",
+      "apps": [
+        {"name": "Notion", "slug": "notion", "domain": "notion.so"},
+        {"name": "Airtable", "slug": "airtable", "domain": "airtable.com"},
+        {"name": "Coda", "slug": "coda", "domain": "coda.io"},
+        {"name": "ClickUp", "slug": "clickup", "domain": "clickup.com"},
+        {"name": "Asana", "slug": "asana", "domain": "asana.com"},
+        {"name": "Monday.com", "slug": "monday", "domain": "monday.com"},
+        {"name": "Smartsheet", "slug": "smartsheet", "domain": "smartsheet.com"},
+        {"name": "Harvest", "slug": "harvest", "domain": "getharvest.com"},
+        {"name": "Trello", "slug": "trello", "domain": "trello.com"},
+        {"name": "Todoist", "slug": "todoist", "domain": "todoist.com"}
+      ]
+    },
+    {
+      "name": "Finance and Fintech",
+      "apps": [
+        {"name": "Stripe", "slug": "stripe", "domain": "stripe.com"},
+        {"name": "QuickBooks", "slug": "quickbooks", "domain": "quickbooks.intuit.com"},
+        {"name": "Xero", "slug": "xero", "domain": "xero.com"},
+        {"name": "Brex", "slug": "brex", "domain": "brex.com"},
+        {"name": "Ramp", "slug": "ramp", "domain": "ramp.com"},
+        {"name": "Binance", "slug": "binance", "domain": "binance.com"},
+        {"name": "Paygent Connect", "slug": "paygent-connect", "domain": "paygent.co.jp"},
+        {"name": "iPayX", "slug": "ipayx", "domain": "ipayx.com"},
+        {"name": "PitchBook", "slug": "pitchbook", "domain": "pitchbook.com"},
+        {"name": "Plaid", "slug": "plaid", "domain": "plaid.com"}
+      ]
+    },
+    {
+      "name": "AI, Research and Media-native",
+      "apps": [
+        {"name": "NotebookLM", "slug": "notebooklm", "domain": "notebooklm.google.com"},
+        {"name": "Otter AI", "slug": "otter-ai", "domain": "otter.ai"},
+        {"name": "Fathom", "slug": "fathom", "domain": "fathom.video"},
+        {"name": "Consensus", "slug": "consensus", "domain": "consensus.app"},
+        {"name": "Reducto", "slug": "reducto", "domain": "reducto.ai"},
+        {"name": "Devin", "slug": "devin", "domain": "cognition.ai"},
+        {"name": "Higgsfield", "slug": "higgsfield", "domain": "higgsfield.ai"},
+        {"name": "Mermaid CLI", "slug": "mermaid-cli", "domain": "mermaid.js.org"},
+        {"name": "YouTube Transcript", "slug": "youtube-transcript", "domain": "youtube.com"},
+        {"name": "Grain", "slug": "grain", "domain": "grain.com"}
+      ]
+    }
+  ]
+}

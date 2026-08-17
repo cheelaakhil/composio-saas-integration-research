@@ -1,0 +1,48 @@
+{
+  "credential_setup": [
+    {
+      "name": "Free tier available",
+      "count": 59,
+      "percentage": 59
+    },
+    {
+      "name": "Trial required",
+      "count": 13,
+      "percentage": 13
+    },
+    {
+      "name": "Paid plan required",
+      "count": 9,
+      "percentage": 9
+    },
+    {
+      "name": "Self-serve signup",
+      "count": 7,
+      "percentage": 7
+    },
+    {
+      "name": "Contact sales",
+      "count": 6,
+      "percentage": 6
+    },
+    {
+      "name": "Open Source / Local",
+      "count": 3,
+      "percentage": 3
+    },
+    {
+      "name": "Admin approval",
+      "count": 2,
+      "percentage": 2
+    },
+    {
+      "name": "Partner program",
+      "count": 1,
+      "percentage": 1
+    }
+  ],
+  "self_serve_count": 89,
+  "self_serve_pct": 89,
+  "gated_count": 11,
+  "gated_pct": 11
+}

@@ -1,0 +1,86 @@
+{
+  "all_methods": [
+    {
+      "name": "OAuth2",
+      "count": 57,
+      "percentage": 57
+    },
+    {
+      "name": "Bearer/PAT",
+      "count": 57,
+      "percentage": 57
+    },
+    {
+      "name": "API Key",
+      "count": 45,
+      "percentage": 45
+    },
+    {
+      "name": "Basic",
+      "count": 15,
+      "percentage": 15
+    },
+    {
+      "name": "Custom",
+      "count": 4,
+      "percentage": 4
+    },
+    {
+      "name": "Session",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "CLI/Local",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "None",
+      "count": 1,
+      "percentage": 1
+    }
+  ],
+  "primary_methods": [
+    {
+      "name": "Bearer/PAT",
+      "count": 46,
+      "percentage": 46
+    },
+    {
+      "name": "OAuth2",
+      "count": 20,
+      "percentage": 20
+    },
+    {
+      "name": "API Key",
+      "count": 17,
+      "percentage": 17
+    },
+    {
+      "name": "Basic",
+      "count": 12,
+      "percentage": 12
+    },
+    {
+      "name": "Custom",
+      "count": 2,
+      "percentage": 2
+    },
+    {
+      "name": "Session",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "CLI/Local",
+      "count": 1,
+      "percentage": 1
+    },
+    {
+      "name": "None",
+      "count": 1,
+      "percentage": 1
+    }
+  ]
+}
