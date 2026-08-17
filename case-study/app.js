@@ -1,6 +1,6 @@
 /**
  * Interactive Application Engine for 100-App SaaS Integration Case Study
- * Self-contained data bundle compiled on 2026-08-17T12:13:24.138Z
+ * Self-contained data bundle compiled on 2026-08-17T12:26:55.755Z
  */
 
 const APPS_DATA = [
@@ -55,7 +55,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.603Z"
     }
   },
   {
@@ -105,7 +105,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.603Z"
     }
   },
   {
@@ -155,7 +155,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -205,7 +205,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -255,7 +255,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.603Z"
     }
   },
   {
@@ -305,7 +305,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -354,7 +354,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -405,7 +405,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -454,7 +454,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -503,7 +503,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.604Z"
     }
   },
   {
@@ -554,7 +554,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -604,7 +604,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -654,7 +654,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -704,7 +704,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -753,7 +753,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -803,7 +803,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -853,7 +853,7 @@ const APPS_DATA = [
       ],
       "confidence": "MEDIUM",
       "verification_status": "Partial",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -903,7 +903,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -953,7 +953,7 @@ const APPS_DATA = [
       ],
       "confidence": "MEDIUM",
       "verification_status": "Partial",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1002,7 +1002,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1052,7 +1052,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1102,7 +1102,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1152,7 +1152,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1202,7 +1202,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1252,7 +1252,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1302,7 +1302,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1352,7 +1352,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1402,7 +1402,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1453,7 +1453,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1502,7 +1502,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1552,7 +1552,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1601,7 +1601,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1651,7 +1651,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1700,7 +1700,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1750,7 +1750,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1799,7 +1799,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.604Z"
     }
   },
   {
@@ -1849,7 +1849,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1899,7 +1899,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -1948,7 +1948,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.604Z"
     }
   },
   {
@@ -1998,7 +1998,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.604Z"
     }
   },
   {
@@ -2049,7 +2049,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2099,7 +2099,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2149,7 +2149,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2198,7 +2198,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.604Z"
     }
   },
   {
@@ -2248,7 +2248,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2298,7 +2298,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2348,7 +2348,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2397,7 +2397,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.605Z"
     }
   },
   {
@@ -2447,7 +2447,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2497,7 +2497,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2546,7 +2546,7 @@ const APPS_DATA = [
       ],
       "confidence": "MEDIUM",
       "verification_status": "Partial",
-      "last_checked": "2026-08-17T12:13:15.609Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2596,7 +2596,7 @@ const APPS_DATA = [
       ],
       "confidence": "MEDIUM",
       "verification_status": "Partial",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2646,7 +2646,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2696,7 +2696,7 @@ const APPS_DATA = [
       ],
       "confidence": "MEDIUM",
       "verification_status": "Partial",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2746,7 +2746,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2796,7 +2796,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2845,7 +2845,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2895,7 +2895,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2945,7 +2945,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -2994,7 +2994,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3045,7 +3045,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3096,7 +3096,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3146,7 +3146,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3196,7 +3196,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3246,7 +3246,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3296,7 +3296,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3347,7 +3347,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3397,7 +3397,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3447,7 +3447,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3497,7 +3497,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3547,7 +3547,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3597,7 +3597,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.605Z"
     }
   },
   {
@@ -3646,7 +3646,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3696,7 +3696,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3746,7 +3746,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3796,7 +3796,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3846,7 +3846,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3896,7 +3896,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3946,7 +3946,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -3996,7 +3996,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4046,7 +4046,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.605Z"
     }
   },
   {
@@ -4095,7 +4095,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4144,7 +4144,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4194,7 +4194,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4244,7 +4244,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4294,7 +4294,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4344,7 +4344,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.605Z"
     }
   },
   {
@@ -4394,7 +4394,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.650Z"
+      "last_checked": "2026-08-17T12:26:55.605Z"
     }
   },
   {
@@ -4444,7 +4444,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.651Z"
+      "last_checked": "2026-08-17T12:26:55.606Z"
     }
   },
   {
@@ -4493,7 +4493,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4543,7 +4543,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.651Z"
+      "last_checked": "2026-08-17T12:26:55.606Z"
     }
   },
   {
@@ -4592,7 +4592,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.651Z"
+      "last_checked": "2026-08-17T12:26:55.606Z"
     }
   },
   {
@@ -4642,7 +4642,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4691,7 +4691,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4740,7 +4740,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4790,7 +4790,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4840,7 +4840,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4889,7 +4889,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4939,7 +4939,7 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   },
   {
@@ -4989,12 +4989,12 @@ const APPS_DATA = [
       ],
       "confidence": "HIGH",
       "verification_status": "Verified",
-      "last_checked": "2026-08-17T12:13:15.610Z"
+      "last_checked": "2026-08-17T12:26:55.549Z"
     }
   }
 ];
 const ANALYSIS_DATA = {
-  "generated_at": "2026-08-17T12:13:15.669Z",
+  "generated_at": "2026-08-17T12:26:55.628Z",
   "total_apps_analyzed": 100,
   "patterns": {
     "total_apps": 100,
